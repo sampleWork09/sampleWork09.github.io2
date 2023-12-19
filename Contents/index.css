@@ -1,0 +1,181 @@
+body{
+    background-color: bisque;
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Message */
+.Card{
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+    border-radius: 20px;
+    position: absolute;
+    display: none; /* flex */
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 50vh;
+    font-weight: bold;
+    font-size: 4vh;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: slideup 1s ease-in-out;
+}.Card p{
+    text-align: center;
+}
+
+/* Images */
+#image-container0{
+    background-image: url(../images/img0.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-style: none;
+    border-radius: 20px;
+    position: absolute;
+    display: none; /* flex */
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 50%; */
+    height: 45vh;
+    width: 60vh;
+    font-weight: bold;
+    font-size: 6vh;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: slideup 1s ease-in-out;
+}#image-container1{
+    background-image: url(../images/img0.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-style: none;
+    border-radius: 20px;
+    position: absolute;
+    display: none; /* flex */
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 50%; */
+    height: 45vh;
+    width: 60vh;
+    font-weight: bold;
+    font-size: 6vh;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: slideup 1s ease-in-out;
+}#image-container2{
+    background-image: url(../images/img0.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-style: none;
+    border-radius: 20px;
+    position: absolute;
+    display: none; /* flex */
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 50%; */
+    height: 45vh;
+    width: 60vh;
+    font-weight: bold;
+    font-size: 6vh;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: slideup 1s ease-in-out;
+}#image-container3{
+    background-image: url(../images/img0.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-style: none;
+    border-radius: 20px;
+    position: absolute;
+    display: none; /* flex */
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 50%; */
+    height: 45vh;
+    width: 60vh;
+    font-weight: bold;
+    font-size: 6vh;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: slideup 1s ease-in-out;
+}#image-container4{
+    background-image: url(../images/img0.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-style: none;
+    border-radius: 20px;
+    position: absolute;
+    display: none; /* flex */
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 50%; */
+    height: 45vh;
+    width: 60vh;
+    font-weight: bold;
+    font-size: 6vh;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: slideup 1s ease-in-out;
+}
+
+/* Main */
+#main{
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+    border-radius: 20px;
+    position: absolute;
+    display: flex; /* flex */
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 30vh;
+    font-weight: bold;
+    font-size: 6vh;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: slideup 1s ease-in-out;
+    cursor: pointer;
+    /* z-index: 1; */
+}#main p{
+    position: absolute;
+}.main0{
+    margin-top: -2vh;
+    font-size: 10vh;
+    animation: slidedown 2s ease-in-out;
+}.main1{
+    margin-top: 14vh;
+    animation: slidedown 2s ease-in-out;
+}
+
+/* Animations */
+@keyframes slideup {
+    from{
+        transform: translateY(100vh);
+    }
+}
+@keyframes slidedown {
+    from{
+        transform: translateY(-100vh);
+    }
+}
+@keyframes slideleft {
+    from {
+        transform: translateX(-100vh);
+    }
+}
+@keyframes slideright {
+    from {
+        transform: translateX(100vh);
+    }
+}
+
+
+/* Hover */
+#main:hover{
+    background-color: rgb(245, 235, 235);
+}
+
+/* Phone */
+@media only screen and (max-width: 767px) {
+#image-container{
+    width: 50vh;
+}
+}
